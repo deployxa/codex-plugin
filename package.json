@@ -1,0 +1,20 @@
+{
+  "name": "@deployxa/codex-plugin",
+  "version": "1.0.0",
+  "description": "Official Deployxa agent plugin for OpenAI Codex - autonomous cloud deployment, log inspection, and Engine diagnostics.",
+  "author": "Deployxa Team <info@deployxa.com>",
+  "license": "MIT",
+  "homepage": "https://deployxa.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deployxa/codex-plugin.git"
+  },
+  "keywords": [
+    "codex-plugin",
+    "deployxa",
+    "mcp",
+    "openai-codex",
+    "devops",
+    "deployment"
+  ]
+}

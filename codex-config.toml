@@ -1,0 +1,15 @@
+# Deployxa MCP Server Configuration for OpenAI Codex (~/.codex/config.toml)
+
+# Remote Streamable HTTP (Recommended for Production & OAuth 2.1)
+[mcp.servers.deployxa]
+url = "https://mcp.deployxa.com/mcp"
+
+# Alternative: Local stdio development
+# [mcp.servers.deployxa]
+# command = "node"
+# args = ["/path/to/deployxa/packages/mcp/dist/server.js"]
+# [mcp.servers.deployxa.env]
+# DEPLOYXA_TOKEN = "dxa_your_api_token"
+# DEPLOYXA_ORGANIZATION_ID = "your-organization-id"
+# DEPLOYXA_API_URL = "https://api.deployxa.com"
+# DEPLOYXA_MCP_ENABLE_MUTATIONS = "true"

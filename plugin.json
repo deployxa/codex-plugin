@@ -1,0 +1,29 @@
+{
+  "name": "deployxa_codex",
+  "displayName": "Deployxa for OpenAI Codex",
+  "version": "1.0.0",
+  "description": "Official Deployxa agent plugin for OpenAI Codex - autonomous cloud deployment, streaming build logs, Engine diagnostics, and domain management.",
+  "author": {
+    "name": "Deployxa Team",
+    "email": "info@deployxa.com",
+    "url": "https://deployxa.com"
+  },
+  "homepage": "https://deployxa.com",
+  "repository": "https://github.com/deployxa/codex-plugin",
+  "icon": "https://deployxa.com/icon.png",
+  "license": "MIT",
+  "keywords": [
+    "deployxa",
+    "chatgpt",
+    "openai",
+    "codex",
+    "agent-plugin",
+    "mcp",
+    "devops",
+    "cloud"
+  ],
+  "mcpServers": "./.mcp.json",
+  "instructions": "./AGENTS.md",
+  "skills": "./skills",
+  "commands": "./commands"
+}
